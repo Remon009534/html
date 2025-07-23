@@ -1,0 +1,28 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    text-align: center;
+}
+div.box1 {
+    background-color: lightcoral;
+}
+div.box2 {
+    background-color: lightseagreen;
+}
+div.box3 {
+    background-color: magenta;
+}
+main {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+div.box2 {
+    grid-row: 3/4;
+    text-align: center;
+}

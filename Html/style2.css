@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body {
+    background-color: #bdc3c7;
+}
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calender {
+    background-color: #f5f6fa;
+    width: 350px;
+    height: auto;
+    padding: 50px 30px 30px 30px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 10px rgba(58, 25, 25, 0.048) ;
+}
+.day {
+    display: flex;
+    color: #2f3640;
+    justify-content: space-around;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+.day .Today {
+    display: inline-block;
+    background-color: #dcdde1;
+    align-items: center;
+    padding: 10px;
+    border-radius: 15px;
+}
+.day .Tomorrow {
+    display: inline-block;
+    background-color: #dcdde1;
+    align-items: center;
+    padding: 10px;
+    border-radius: 15px;
+}
+.day .In {
+    display: inline-block;
+    background-color: #dcdde1;
+    align-items: center;
+    padding: 10px;
+    border-radius: 15px;
+}
+.month {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Lato', sans-serif;
+    font-weight: 350;
+    border-radius: 8px;
+}
+.month .lSign {
+    background-color: #f5f6fa;
+    border-radius: 15px;
+    box-shadow: 10px;
+    font-family: 'Goblin One', cursive;
+}
+.month .gSign {
+    background-color: #f5f6fa;
+    border-radius: 15px;
+    box-shadow: 10px;
+    font-family: 'Goblin One', cursive;
+}
+.days {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-weight: 600;
+    row-gap: 30px;
+    column-gap: 25px;
+}
+.dates {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    row-gap: 30px;
+    column-gap: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    margin-top: 20px;
+    row-gap: 2px;
+    column-gap: 2px;
+}
+.dates .nodate {
+    height: 40px;
+    width: 13%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    padding-right: 6px;
+}
+.dates .nodate-blue {
+    background-color: #0097e6;
+    display: inline-block;
+    align-items: center;
+    padding: 10px;
+    border-radius: 15px;
+    color: #f5f6fa;
+}
+.dates .nodate-lightblue {
+    color: #00a8ff;
+    display: inline-block;
+    align-items: center;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 10px #00a8ff;
+}
+.button {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+.button .Remove {
+    display: inline-block;
+    background-color: #dcdde1;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;
+    width: 50%;
+    margin-right: 15px;
+    color: #7f8c8d;
+}
+.button .Done {
+    display: inline-block;
+    color: #f5f6fa;
+    background-color: #0097e6;
+    align-items: center;
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
+    width: 50%;
+}
+.Add {
+    color: #95a5a6;
+    font-family: 'Lato', sans-serif;
+}
